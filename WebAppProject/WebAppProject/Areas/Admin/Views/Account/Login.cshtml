@@ -1,0 +1,92 @@
+﻿
+@model WebAppProject.Models.Login
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Inter:wght@600&family=Pacifico&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container-login">
+            <div class="brl door"></div>
+            <div class="brr door"></div>
+            <div id="backgroundpositonid" class="backgroundpositon">
+                <div id="loginF" class="login">
+                    <div class="content">
+                        <p class="content-text">
+                        <p class="text">Have an account</p>
+                        </p>
+                        <form class="login-form" asp-area="Admin" asp-controller="Account" asp-action="Login" method="post" enctype="multipart/form-data">
+
+                            <label>Email Address</label>
+                            <input class="flex label-input botron" asp-for="EmailAddress" name="EmailAddress" type="text">
+
+                            <label>Password</label>
+                            <input class="flex label-input botron" asp-for="Password" name="Password" type="password">
+
+
+                            <button type="submit" class="btn-Login" >Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loichao">
+            <div class="container nen-den">
+                <p class="text-loichao">Hi!</p>
+                <p class="camon">Cảm ơn<span id="kinhnguid"></span> đã dành 1 chút thời gian cho e</p>
+            </div>
+        </div>
+        <div class="cv">
+            <div class="display-flex">
+                <div class="brl door door-open"></div>
+                <div class="brr door door-open door-openr"></div>
+                <div class="InforInCv">
+                    <div class="myCv">
+                        <div class="container-nen">
+                            <div class="nen">
+                            </div>
+                            <div class="nen-nhat">
+                            </div>
+                        </div>
+                        <div class="nen-trang">
+                        </div>
+                        <div class="mycv-infor">
+                            <div class="cv-boder">
+                                <div class="hinhanh">
+                                    <div class="hinhanh-boder">
+                                        <img src="/img/avatar.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <div class="contact-infor">
+                                        <p>Contact</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cv-noneboder">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mystore">
+                    <p>hello</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

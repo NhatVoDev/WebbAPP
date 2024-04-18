@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebAppProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebAppProject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\css\\templatemo-grad-school.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-grad-school.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\author-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-01.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\author-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-02.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\author-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-03.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\author-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-04.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\author-05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-05.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\choose-us-image-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-01.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\choose-us-image-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-02.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\choose-us-image-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-03.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\choosing-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\choosing-bg.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\coming-soon-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\coming-soon-bg.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\course-video.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\course-video.mp4"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-01.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-02.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-03.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-04.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-05.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\courses-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-bg.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\main-slider-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-01.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\main-slider-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-02.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\main-slider-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-03.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\main-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\main-thumb.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-bg.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\video-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\images\\video-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-thumb-02.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\assets\\js\\video.js",
+      "PackagePath": "staticwebassets\\assets\\js\\video.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\media\\img\\R.jpg",
+      "PackagePath": "staticwebassets\\media\\img\\R.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\media\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\media\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\media\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\media\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\media\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\media\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Công viêc\\Học tập\\qlsv\\WebAppProject\\WebAppProject\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebAppProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebAppProject.props",
+      "PackagePath": "build\\WebAppProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAppProject.props",
+      "PackagePath": "buildMultiTargeting\\WebAppProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebAppProject.props",
+      "PackagePath": "buildTransitive\\WebAppProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
