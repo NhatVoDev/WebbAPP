@@ -80,6 +80,9 @@ namespace WebAppProject.Migrations
                 name: "IX_Accounts_UserId",
                 table: "Accounts",
                 column: "UserId");
+
+
+
         }
 
         /// <inheritdoc />

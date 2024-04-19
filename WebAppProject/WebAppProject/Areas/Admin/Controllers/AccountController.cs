@@ -57,5 +57,11 @@ namespace WebAppProject.Areas.Admin.Controllers
             ViewBag.Err = "Sai Tài Khoản Hoặc Mật Khẩu";
             return View();
         }
+        [HttpGet]
+        [Route("Admin/[controller]/[action]")]
+        public IActionResult Create()
+        {
+            return PartialView("_Create");
+        }
     }
 }

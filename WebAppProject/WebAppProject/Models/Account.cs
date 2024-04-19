@@ -14,8 +14,7 @@ namespace WebAppProject.Models
 
         [ForeignKey("RoleNumber")]
         public Role Role { get; set; }
-
-        public User Users { get; set; }
+        public User? User { get; set; }
 
     }
 

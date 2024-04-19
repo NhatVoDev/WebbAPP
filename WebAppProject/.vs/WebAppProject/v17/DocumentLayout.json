@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A1440D-6B1F-4262-8ECB-9A91906996F5}|WebAppProject\\WebAppProject.csproj|c:\\users\\pc-nhat\\desktop\\congviec\\webbapp\\webappproject\\webappproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A1440D-6B1F-4262-8ECB-9A91906996F5}|WebAppProject\\WebAppProject.csproj|solutionrelative:webappproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A1440D-6B1F-4262-8ECB-9A91906996F5}|WebAppProject\\WebAppProject.csproj|c:\\users\\pc-nhat\\desktop\\congviec\\webbapp\\webappproject\\webappproject\\areas\\admin\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8A1440D-6B1F-4262-8ECB-9A91906996F5}|WebAppProject\\WebAppProject.csproj|solutionrelative:webappproject\\areas\\admin\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebAppProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:13:37.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppProject\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "WebAppProject\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T05:54:41.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

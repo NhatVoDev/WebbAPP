@@ -19,6 +19,8 @@ namespace WebAppProject.Migrations
                 table: "Users",
                 column: "AccountId",
                 unique: true);
+
+
         }
 
         /// <inheritdoc />
@@ -33,5 +35,6 @@ namespace WebAppProject.Migrations
                 table: "Users",
                 column: "AccountId");
         }
+
     }
 }
