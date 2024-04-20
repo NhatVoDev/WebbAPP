@@ -5,6 +5,7 @@ using System.Security.Claims;
 using WebAppProject.DBContext;
 using WebAppProject.Models;
 using Microsoft.EntityFrameworkCore;
+using WebAppProject.ViewModels;
 
 namespace WebAppProject.Areas.Admin.Controllers
 {
@@ -22,6 +23,7 @@ namespace WebAppProject.Areas.Admin.Controllers
         [Route("admin/[controller]/[action]")]
         public IActionResult Index()
         {
+            ViewBag.AccountList = _context.Accounts.Where(x => x.RoleNumber != 1).ToList();
             return View();
         }
         [HttpGet]
@@ -62,6 +64,18 @@ namespace WebAppProject.Areas.Admin.Controllers
         public IActionResult Create()
         {
             return PartialView("_Create");
+        }
+        [HttpPost]
+        [Route("Admin/[controller]/[action]")]
+        public IActionResult CreateAccount(AccountViewModels input)
+        {
+            var account = new Account();
+            account.EmailAddress = input.EmailAddress;
+            account.Password = input.Password;
+            account.RoleNumber = 2;
+            _context.Accounts.Add(account);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Account", new { area = "Admin" });
         }
     }
 }
