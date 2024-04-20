@@ -4,7 +4,15 @@
 
 <div class="d-flex align-items-center justify-content-between mb-4">
     <h6 class="mb-0">User Account Manager</h6>
-    <button class="btn btn-sm btn-success" onclick="openmodal()">Create</button>
+    <button class="btn btn-sm btn-success" onclick="openmodal('/Admin/Account/Create')">Create</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+
 </div>
 <div class="table-responsive">
     <table class="table text-start align-middle table-bordered table-hover mb-0">
@@ -31,36 +39,52 @@
         </tbody>
     </table>
 </div>
-<!-- Button trigger modal -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-
-        <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-    </div>
-</div>
 <script>
-    function openmodal() {
-        alert("ok")
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/Admin/Account/Create', true);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-                if (xhr.status === 200) {
-                    // Nếu yêu cầu thành công, hiển thị PartialView trong modal
-                    document.querySelector("#exampleModalCenter .modal-content").innerHTML = xhr.responseText;
-                    // Hiển thị modal
-                    var modal = new bootstrap.Modal(document.getElementById('exampleModalCenter'));
-                    modal.show();
-                } else {
-                    // Xử lý trường hợp yêu cầu không thành công
-                    console.error('Request failed:', xhr.status);
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('input').forEach(function (input) {
+            input.addEventListener('keypress', function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault(); // Ngăn chặn hành động mặc định của nút Enter
                 }
-            }
-        };
-        xhr.send();
+            });
+        });
+    });
+    function CheckPass() {
+        var pass = document.getElementById('password').value;
+        var passC = document.getElementById('passwordconfirm').value;
+        if (pass == passC) {
+            var formData = new FormData();
+            formData.append('EmailAddress', $('#exampleInputEmail1').val());
+            formData.append('Password', $('#password').val());
+            formData.append('PasswordConfirm', $('#passwordconfirm').val());
+            $.ajax({
+                url: '/Admin/Account/CreateAccount',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    if (!data.success) {
+                        // Nếu không thành công, hiển thị thông điệp lỗi trong modal
+                        document.getElementById("errcheck").innerHTML = data.message;
+                        $('#myModalContent').html(data.message);
+                        $('#myModal').modal('show');
+                    } else {
+                        // Nếu thành công, chèn nội dung trả về vào modal và hiển thị
+                        $('#myModalContent').html(data);
+                        $('#myModal').modal('show');
+                    }
+                    $('#myModal').on('hidden.bs.modal', function (e) {
+                        data.message = "";
+                    });
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý lỗi
+                }
+            });
+        }
+        else {
+            document.getElementById("errcheck").innerHTML = "Password And PasswordConfirm Not Valid"
+        }
     }
 </script>

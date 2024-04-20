@@ -69,6 +69,12 @@ namespace WebAppProject.Areas.Admin.Controllers
         [Route("Admin/[controller]/[action]")]
         public IActionResult CreateAccount(AccountViewModels input)
         {
+            var check = _context.Accounts.FirstOrDefault(x => x.EmailAddress == input.EmailAddress);
+            if (check != null)
+            {
+                TempData["ErrMessage"] = "Email Đã Tồn Tại";
+                return Json(new { success = false, message = "Email Đã Tồn Tại" });
+            }
             var account = new Account();
             account.EmailAddress = input.EmailAddress;
             account.Password = input.Password;

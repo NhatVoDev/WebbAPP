@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Công viêc\\Học tập\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj": {}
+    "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj": {}
   },
   "projects": {
-    "D:\\Công viêc\\Học tập\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj": {
+    "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Công viêc\\Học tập\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj",
+        "projectUniqueName": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj",
         "projectName": "WebAppProject",
-        "projectPath": "D:\\Công viêc\\Học tập\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj",
-        "packagesPath": "C:\\Users\\VNT\\.nuget\\packages\\",
-        "outputPath": "D:\\Công viêc\\Học tập\\WebbAPP\\WebAppProject\\WebAppProject\\obj\\",
+        "projectPath": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\WebAppProject.csproj",
+        "packagesPath": "C:\\Users\\PC-NHAT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC-NHAT\\Desktop\\congviec\\WebbAPP\\WebAppProject\\WebAppProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC-NHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
