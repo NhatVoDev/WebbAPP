@@ -6,6 +6,7 @@ using WebAppProject.DBContext;
 using WebAppProject.Models;
 using Microsoft.EntityFrameworkCore;
 using WebAppProject.ViewModels;
+using X.PagedList;
 
 namespace WebAppProject.Areas.Admin.Controllers
 {
@@ -21,10 +22,13 @@ namespace WebAppProject.Areas.Admin.Controllers
         }
         [HttpGet]
         [Route("admin/[controller]/[action]")]
-        public IActionResult Index()
+        public IActionResult Index(int? page)
         {
-            ViewBag.AccountList = _context.Accounts.Where(x => x.RoleNumber != 1).ToList();
-            return View();
+            int pageSize = 11;
+            int pageNumber = (page ?? 1);
+            var listAccount = _context.Accounts.Where(x => x.RoleNumber != 1).ToPagedList(pageNumber, pageSize); ;
+            ViewBag.AccountList = listAccount;
+            return View(listAccount);
         }
         [HttpGet]
         [Route("Admin/[controller]/[action]")]
@@ -69,17 +73,64 @@ namespace WebAppProject.Areas.Admin.Controllers
         [Route("Admin/[controller]/[action]")]
         public IActionResult CreateAccount(AccountViewModels input)
         {
-            var check = _context.Accounts.FirstOrDefault(x => x.EmailAddress == input.EmailAddress);
-            if (check != null)
+            var accountUser = _context.Accounts.FirstOrDefault(x => x.EmailAddress == input.EmailAddress);
+            if (accountUser != null)
             {
                 TempData["ErrMessage"] = "Email Đã Tồn Tại";
                 return Json(new { success = false, message = "Email Đã Tồn Tại" });
             }
-            var account = new Account();
-            account.EmailAddress = input.EmailAddress;
-            account.Password = input.Password;
-            account.RoleNumber = 2;
-            _context.Accounts.Add(account);
+            if(input.Id == null)
+            {
+                var account = new Account();
+                account.EmailAddress = input.EmailAddress;
+                account.Password = input.Password;
+                account.RoleNumber = 2;
+                _context.Accounts.Add(account);
+               
+            }
+            else
+            {
+                accountUser = _context.Accounts.FirstOrDefault(x => x.Id == input.Id);
+                if (accountUser != null)
+                {
+                    accountUser.EmailAddress = input.EmailAddress;
+                    if(input.Password != null)
+                    {
+                        accountUser.Password = input.Password;
+                    }                
+                    _context.Update(accountUser);
+                }
+              
+            }
+
+            _context.SaveChanges();
+            return Json(new { success = true, message = "" });
+        }
+        [HttpGet]
+        [Route("Admin/[controller]/[action]")]
+        public IActionResult Edit(int input)
+        {
+            var account = _context.Accounts.FirstOrDefault(x => x.Id == input);
+            var accountView = new AccountViewModels();
+            accountView.Id = account.Id;
+            accountView.EmailAddress = account.EmailAddress;
+            accountView.Password = account.Password;
+            accountView.PasswordConfirm = account.Password;
+            return PartialView("_Create", accountView);
+        }
+        [HttpGet]
+        [Route("Admin/[controller]/[action]")]
+        public IActionResult Delete(int input)
+        {
+            var account = _context.Accounts.FirstOrDefault(x => x.Id == input);
+            return PartialView("_Delete",account);
+        }
+        [HttpGet]
+        [Route("Admin/[controller]/[action]")]
+        public IActionResult DeleteData(int input)
+        {
+            var account = _context.Accounts.FirstOrDefault(x => x.Id == input);
+            _context.Remove(account);
             _context.SaveChanges();
             return RedirectToAction("Index", "Account", new { area = "Admin" });
         }

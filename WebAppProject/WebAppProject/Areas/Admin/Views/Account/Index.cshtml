@@ -1,5 +1,6 @@
-﻿
+﻿@model X.PagedList.IPagedList<WebAppProject.Models.Account>;
 @using WebAppProject.Models;
+@using X.PagedList.Mvc.Core
 
 
 <div class="d-flex align-items-center justify-content-between mb-4">
@@ -30,61 +31,24 @@
                     <td><input class="form-check-input" type="checkbox"></td>
                     <th scope="col">@item.EmailAddress</th>
                     <td>
-                        <a class="btn btn-sm btn-primary" href="">Detail</a>
-
+                        <button class="btn btn-sm btn-primary" onclick="openmodal('/Admin/Account/Edit?input=@item.Id')">Edit</button>
+                        <button class="btn btn-sm btn-danger" onclick="openmodal('/Admin/Account/Delete?input=@item.Id')">Delete</button>
                     </td>
                 </tr>
             }
            
         </tbody>
     </table>
+</div> 
+<div style="display:flex">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll('input').forEach(function (input) {
-            input.addEventListener('keypress', function (event) {
-                if (event.keyCode === 13) {
-                    event.preventDefault(); // Ngăn chặn hành động mặc định của nút Enter
-                }
-            });
-        });
-    });
-    function CheckPass() {
-        var pass = document.getElementById('password').value;
-        var passC = document.getElementById('passwordconfirm').value;
-        if (pass == passC) {
-            var formData = new FormData();
-            formData.append('EmailAddress', $('#exampleInputEmail1').val());
-            formData.append('Password', $('#password').val());
-            formData.append('PasswordConfirm', $('#passwordconfirm').val());
-            $.ajax({
-                url: '/Admin/Account/CreateAccount',
-                type: 'POST',
-                data: formData,
-                processData: false,
-                contentType: false,
-                success: function (data) {
-                    if (!data.success) {
-                        // Nếu không thành công, hiển thị thông điệp lỗi trong modal
-                        document.getElementById("errcheck").innerHTML = data.message;
-                        $('#myModalContent').html(data.message);
-                        $('#myModal').modal('show');
-                    } else {
-                        // Nếu thành công, chèn nội dung trả về vào modal và hiển thị
-                        $('#myModalContent').html(data);
-                        $('#myModal').modal('show');
-                    }
-                    $('#myModal').on('hidden.bs.modal', function (e) {
-                        data.message = "";
-                    });
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý lỗi
-                }
-            });
-        }
-        else {
-            document.getElementById("errcheck").innerHTML = "Password And PasswordConfirm Not Valid"
-        }
-    }
-</script>
+@* @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+{
+    DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+    DisplayLinkToLastPage = PagedListDisplayMode.Always,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    LinkToPreviousPageFormat = "<i class='fa fa-angle-left'></i>",
+    LinkToNextPageFormat = ">>"
+}) *@
